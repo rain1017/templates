@@ -1,44 +1,45 @@
 {
-	"name": "templates",
-	"description": "",
-	"version": "0.0.0",
-	"author": "rain",
-	"private" : false,
-	"homepage" : "https://github.com/rain1017/templates",
-	"repository" : {
-		"type" : "git",
-		"url" : "https://github.com/rain1017/templates.git"
-	},
-	"bugs" : {
-		"url" : "https://github.com/rain1017/templates/issues"
-	},
-	"keywords" : [
-	],
-	"engines": {
-		"node": "0.10.x"
-	},
-	"scripts": {
-		"start": "grunt",
-		"test": "grunt test",
-		"postinstall": ""
-	},
-	"dependencies": {
-		"lodash": "~2.4.1",
-		"grunt-cli": "~0.1.13",
-		"glob": "~4.3.2",
-		"q": "~1.1.2"
-	},
-	"devDependencies": {
-		"should": "~4.5.0",
-		"grunt-env": "~0.4.2",
-		"grunt-node-inspector": "~0.1.5",
-		"grunt-contrib-watch": "~0.6.1",
-		"grunt-contrib-jshint": "~0.10.0",
-		"grunt-contrib-clean": "~0.6.0",
-		"grunt-nodemon": "~0.3.0",
-		"grunt-concurrent": "~1.0.0",
-		"grunt-mocha-test": "~0.12.6",
-		"load-grunt-tasks": "~2.0.0",
-		"blanket" : "~1.1.6"
-	}
+    "name": "templates",
+    "description": "",
+    "version": "0.0.0",
+    "author": "rain",
+    "private" : false,
+    "homepage" : "https://github.com/rain1017/templates",
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rain1017/templates.git"
+    },
+    "bugs" : {
+        "url" : "https://github.com/rain1017/templates/issues"
+    },
+    "keywords" : [
+    ],
+    "engines": {
+        "node": ">=0.12.x"
+    },
+    "scripts": {
+        "start": "grunt",
+        "test": "grunt test",
+        "postinstall": ""
+    },
+    "dependencies": {
+        "lodash": "~2.4.1",
+        "grunt-cli": "~0.1.13",
+        "bluebird": "~2.9.30"
+    },
+    "devDependencies": {
+        "blanket": "~1.1.6",
+        "grunt-concurrent": "~1.0.0",
+        "grunt-contrib-clean": "~0.6.0",
+        "grunt-contrib-jshint": "~0.10.0",
+        "grunt-contrib-watch": "~0.6.1",
+        "grunt-env": "~0.4.2",
+        "grunt-mocha-cli": "~1.13.0",
+        "grunt-mocha-cov": "~0.4.0",
+        "grunt-mocha-test": "~0.12.6",
+        "grunt-node-inspector": "~0.1.5",
+        "grunt-nodemon": "~0.3.0",
+        "load-grunt-tasks": "~2.0.0",
+        "should": "~4.5.0"
+    }
 }
